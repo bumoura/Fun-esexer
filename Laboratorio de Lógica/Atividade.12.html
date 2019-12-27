@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Funções</title>
+</head>
+
+<body>
+
+  <script>
+
+    let salario_bruto = Number(prompt("Qual é o seu salário?"));
+    let prestacao = Number(prompt("Qual o valor da prestação que deseja pagar mensalmente?"));
+
+    if (prestacao <= (salario_bruto * 0.30))
+    {
+      alert( "Emprestimo pode ser concedido!")
+    }
+
+    else if ( prestacao > (salario_bruto * 0.30))
+    {
+       alert("Emprestimo não pode ser concedido!")
+    }
+
+  </script>
+
+
+</body>
+
+</html>

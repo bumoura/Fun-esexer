@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funções</title>
+</head>
+<body>
+
+<script>
+
+let total_fitas = Number(prompt("Quantas fitas a locadora possui?"));
+let valor_aluguel =  Number(10);
+let alugadas_mes = 1/total_fitas
+let faturamento_anual = Number(365);
+let atraso = 0.10
+let devolução_atraso = 1/10 * atraso
+let estragadas = 0.02
+let reposição = 1/10
+
+function conta (p1,p2,p3,p4,p5,p6,p7,p8,){
+
+let t1 =  alugadas_mes * valor_aluguel * faturamento_anual
+return total1 = alugadas_mes * valor_aluguel * faturamento_anual
+};
+
+{ let t2 = devolução_atraso * alugadas_mes
+ return total2 = devolução_atraso * alugadas_mes
+
+};
+
+{ let t3 = (estragadas * faturamento_anual) + reposição
+return total3 = (estragadas * faturamento_anual) + reposição
+
+alert("O faturamento anual da locadora é "
+ + total1 + "O valor ganho com muita por mês é " + total2 +
+  "O total de Locadoras no ano é " + total3);
+}
+
+
+conta(total_fitas,valor_aluguel,
+alugadas_mes,faturamento_anual,
+atraso,devolução_atraso,
+estragadas,reposição)
+
+
+</script>
+
+
+</body>
+</html>

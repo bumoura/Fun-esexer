@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+    //Calcule a quantidade de dinheiro gasto por um fumante durante o ano que ele fumou!  
+      //Nº de cigarros fumados por dia e o preço de uma carteira com 20 cigarros
+
+      confirm("Vamos ver quanto voce gasta com dinheiro fumando cigarro!!")
+
+let maco = Number(prompt(" Digite o valor do maço do cigarro "));
+let gasto_dia = Number(prompt(" Quantos cigarros voce fuma por dia? "));
+let anos = Number(prompt(" Há quantos anos voce fuma?  "));
+
+
+
+function caixa(cig, gast, anosF) {
+    let vl_unit = cig / 20
+    let total_dia = vl_unit * gast
+    let Nanos = anosF * 365
+    let Gasto = total_dia * Nanos
+    return Gasto  
+    
+}
+
+alert(caixa(maco, gasto_dia, anos));
+
+    
+    
+    
+    </script>
+</body>
+</html>

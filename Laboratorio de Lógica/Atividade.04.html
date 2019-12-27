@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funções</title>
+</head>
+<body>
+
+<script>
+
+i = 1;
+
+do{
+   document.write(i);
+   i++
+
+var bebida = Number(prompt("Quanto você consumiu de bebida?"));
+var comida = Number(prompt("Quanto você consumiu de comida?"));
+var conta = bebida + comida
+var porcentagem = 0.10
+
+if (conta >= 1) {
+    resultado = (conta * porcentagem) + conta
+    alert("A sua conta deu " + resultado + " Com a taxa de 10% do garçon");
+}
+ 
+else if (conta <= 0) {
+
+    alert("Vai consumir algo senhor?");
+    
+}
+
+}while(i<=2)
+
+</script>
+
+
+</body>
+</html>
